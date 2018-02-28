@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LIDT", "..\..\..\..\..\LIDT\", "{5D0CEA3B-91ED-4413-BABA-07B84D2048BD}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LIDT", ".", "{5D0CEA3B-91ED-4413-BABA-07B84D2048BD}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_53754"
 		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\LIDT\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53754\"
