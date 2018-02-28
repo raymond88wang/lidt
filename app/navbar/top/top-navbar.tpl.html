@@ -1,0 +1,23 @@
+﻿<div class="navbar navbar-expand-sm navbar-dark bg-dark navbar-top">
+    <ul class="nav navbar-nav mr-auto">
+        <li>
+            <a class="navbar-brand" href="#" data-toggle="collapse" data-target="#sidebar">LIDT</a>
+        </li>
+        <li>
+            <a href="">Home</a>
+        </li>
+        <li>
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="button" aria-haspopup="true" aria-expanded="false">None</button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li ng-repeat="device in devices"">
+                        <a class="dropdown-item" href="#" ng-click-="vm.onSelect(device.Id)">{{device.Name}}</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <ul class="nav navbar-nav ml-sm-auto">
+        <li><a href="#" ng-click="vm.logOut()">Logout</a></li>
+    </ul>
+</div>
