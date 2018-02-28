@@ -12,6 +12,7 @@
     function Controller(DataService) {
         var vm = this;
         vm.devices = [];
+        vm.isCollapsed = true;
 
         (function _init() {
             //DataService.GetAllClientDevices(clientId)

@@ -13,6 +13,12 @@
         var vm = this;
         vm.devices = [];
 
+        (function _init() {
+            vm.devices.push({ ID: "a" });
+            vm.devices.push({ ID: "b" });
+            vm.devices.push({ ID: "c" });
+        })();
+
         function addDevice(deviceId) {
             vm.devices.push(deviceId);
         }

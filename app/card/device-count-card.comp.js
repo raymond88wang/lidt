@@ -6,7 +6,8 @@
             controllerAs: 'vm',
             controller: Controller,
             bindings: {
-                DeviceId: '@?'
+                DeviceId: '@',
+                Count: '='
             }
         });
 
@@ -19,7 +20,7 @@
         vm.refresh = refresh;
 
         (function _init() {
-            refresh();
+            //refresh();
         });
 
         function refresh() {

@@ -11,5 +11,10 @@
 
     function Controller() {
         var vm = this;
+        vm.isCollapsed = false;
+        vm.dashboard = true;
+        vm.isReportsCollapsed = true;
+        vm.isGraphsCollapsed = true;
+        vm.DashboardButtonText = vm.isCollapsed ? 'Dashboard' : 'Device Count Dashboard';
     }
 })();

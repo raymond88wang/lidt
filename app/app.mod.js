@@ -7,6 +7,7 @@
 
         //vendors
         'ui.bootstrap',
+        'ui.router',
         'chart.js'
     ]);
 })();
